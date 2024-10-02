@@ -13,3 +13,6 @@ Idag har jag skrivit planering och gjort skissen
 Sedan kan du skriva i loggform om vad du har arbetat med från planering och hur det har gått att arbeta med.
 
 Skriv även sådant som du måste arbeta med nästa pass.
+
+Dag 2
+Jag har tapat bort mig och jag vet inte vad som ska göras var och hur
