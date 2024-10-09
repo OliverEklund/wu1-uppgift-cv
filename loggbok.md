@@ -16,3 +16,6 @@ Skriv även sådant som du måste arbeta med nästa pass.
 
 Dag 2
 Jag har tapat bort mig och jag vet inte vad som ska göras var och hur
+
+dag 3
+Startade om fråmn början
