@@ -19,3 +19,6 @@ Jag har tapat bort mig och jag vet inte vad som ska göras var och hur
 
 dag 3
 Startade om fråmn början
+
+dag 4
+Försökte lägga til ny font, gick itne så bra.

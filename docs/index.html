@@ -1,31 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {}
+
+    .top-container {
+      background-color: #f1f1f1;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .header {
+      position: sticky;
+      top: 0;
+      padding: 10px 16px;
+      background: #000000;
+      color: #f1f1f1;
+    }
+
+    .content {
+      padding: 16px;
+    }
+  </style>
 </head>
+
+
 <body>
-  <h1>Tavis Finnegan Degroot</h1>
-  <p>Alias: demoman</p>
-  <p>12551 Grenada Street</p>
-  <p>New Mexico, Albecurge 12842</p>
-  <p>March 12th, 1972</p>
-  <p>Recruiter: strawmanius Straw</p>
-  <p>Job: Explosives Engieneer</p>
-  <p>17165 New Mexico Santa Fe</p>
-  <p>Dear Strawmanius Straw</p>
-  <p>I am reaching out to you regarding the posting for the empty position as an explosives engineer at Mince-Mining incorporated I found in a newspaper. I am interested in this position and I would like to apply for this position because explosive work is my life passion, and I wish for you to consider me for this position.</p>
-  <p>I have lots of experience handling explosive materials, from the years 1968 - 1970 I worked for two separate sibling gravel companies, (R.E.D) and (B.L.U) as a demolitions expert. I helped excavate gravel and did “Security” work. After R.E.D and B.L.U was assimilated into the Gray Gravel Company (G.G.C) I continued my job as a demolitions expert under the arms-company MANN-CO in which I helped fend off armies of robots sent by the G.G.C using my skills with explosives. But in early 1972 MANN-CO was fully overtaken by the G.G.C which left me jobless.
-    Education: Self taught since birth.
+
+  <header class="header" id="myHeader">
+    <h2>Tavis Finnegan Degroot</h2>
+    <p>12551 Grenada Street / New Mexico, Albecurge 12842</p>
+  </header>
+  <main class="container">
+    <p>Last Updated: March 12th, 2023</p>
+    <p>Recruiter: strawmanius Straw</p>
+    <p>Job: Explosives Engieneer</p>
+    <p>17165 New Mexico Santa Fe</p>
+    <p>Dear Strawmanius Straw</p>
+    <p>I am reaching out to you regarding the posting for the empty position as an explosives engineer at Mince-Mining
+      incorporated I found in a newspaper. I am interested in this position and I would like to apply for this position
+      because explosive work is my life passion, and I wish for you to consider me for this position.</p>
+    
+      <h2>Experience</h2>
+      <p>I have lots of experience handling explosive materials, from the years 1968 - 1970 I worked for two separate
+      sibling gravel companies, (R.E.D) and (B.L.U) as a demolitions expert. I helped excavate gravel and did “Security”
+      work. After R.E.D and B.L.U was assimilated into the Gray Gravel Company (G.G.C) I continued my job as a
+      demolitions expert under the arms-company MANN-CO in which I helped fend off armies of robots sent by the G.G.C
+      using my skills with explosives. But in early 1972 MANN-CO was fully overtaken by the G.G.C which left me jobless.
+      Education: Self taught since birth.
     </p>
-  <p>What makes me a good demoman? If I were a bad demoman, I wouldn't have written this letter now would I? But I am incredibly passionate about explosives, as demolition work has been a family tradition since gunpowder came to Scotland, which is why I have worked and want to with demolition. I am skilled in handling explosives with ease and precision, I am also very patient. I am also open to helping others and I am very social and outspoken. I can follow orders well but I can also act on my own initiative if the situation demands. I also have good endurance, bodily strength and an incredibly strong liver. My weaknesses lay in scrumpy and a slow running speed. These factors make me think I would be the perfect candidate for this position.
-  </p>
-  <p>There is one major health problem I face, while I can function fine with one eye lost, my old doctor said that consumption of non/low alcohol produce makes my body think it is being poisoned.</p>
-  <p>I Appreciate your time spent reading this letter and I hope to hear from you regarding the next steps in the application process.</p>
-  <p>Sincerely</p>
-  <h3>Tavis Finnegan Degroot</h3>
+    <p>What makes me a good demoman? If I were a bad demoman, I wouldn't have written this now would I? But I am
+      incredibly passionate about explosives, as demolition work has been a family tradition since gunpowder came to
+      Scotland, which is why I have worked and want to with demolition. I am skilled in handling explosives with ease
+      and precision, I am also very patient. I am also open to helping others and I am very social and outspoken. I can
+      follow orders well but I can also act on my own initiative if the situation demands. I also have good endurance,
+      bodily strength and an incredibly strong liver. My weaknesses lay in scrumpy and a slow running speed. These
+      factors make me think I would be the perfect candidate for this position.
+    </p>
+    <p>There is one major health problem I face, while I can function fine with one eye lost, my old doctor said that
+      consumption of non/low alcohol produce makes my body think it is being poisoned.</p>
+    <p>I Appreciate your time spent reading this letter and I hope to hear from you regarding the next steps in the
+      application process.</p>
+    <p>Sincerely</p>
+    <h3>Tavis Finnegan Degroot</h3>
+  </main>
+
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+
 </body>
+
 </html>
