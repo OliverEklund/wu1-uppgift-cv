@@ -22,3 +22,6 @@ Startade om fråmn början
 
 dag 4
 Försökte lägga til ny font, gick itne så bra.
+
+dag 5
+Gjorde en coll header, och texten kan nu adaptera till skärmstorlek :D

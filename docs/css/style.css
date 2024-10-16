@@ -6,6 +6,7 @@
 
   .header {
     position: sticky;
+    display: flex;
     top: 0;
     padding: 10px 16px;
     background: #ffffff;
@@ -15,4 +16,9 @@
     max-width: min(56rem, 100vw);
     margin-inline: auto;
     padding-inline: 1rem;
+  }
+
+  .header img {
+    max-width: 15rem;
+    max-height: 15rem;
   }
